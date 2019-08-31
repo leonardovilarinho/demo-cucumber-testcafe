@@ -4,7 +4,6 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "test": "testcafe chrome tests -s output --selector-timeout 60000",
     "test-chrome": "cucumber-js  --world-parameters \"{\\\"browser\\\": \\\"chrome\\\"}\""
   },
   "devDependencies": {
