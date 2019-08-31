@@ -1,0 +1,14 @@
+{
+  "name": "cucumber-testcafe",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "testcafe chrome tests -s output --selector-timeout 60000",
+    "test-chrome": "cucumber-js  --world-parameters \"{\\\"browser\\\": \\\"chrome\\\"}\""
+  },
+  "devDependencies": {
+    "cucumber": "^5.1.0",
+    "testcafe": "^1.4.2"
+  }
+}
