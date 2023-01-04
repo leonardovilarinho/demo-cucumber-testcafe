@@ -8,6 +8,6 @@
   },
   "devDependencies": {
     "cucumber": "^5.1.0",
-    "testcafe": "^1.4.2"
+    "testcafe": "^1.20.1"
   }
 }
